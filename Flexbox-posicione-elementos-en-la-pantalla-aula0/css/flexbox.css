@@ -1,0 +1,48 @@
+.headerPrincipal .container {
+    display: flex;
+    /* Para alineacion vertical */
+    align-items: center;
+    /* Espacio entre elementos (va cada uno para un lado)*/
+    justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+    /* por defecto alinea los elementos horizontalmente */
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* Notar que completa el 100% con el form de abajo */
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    
+    /* Por defecto si no aclaro nada el flex es x fila */
+    flex-direction: column;
+    
+    /* para que no desborde */
+    flex-wrap: wrap;
+
+    /* Es necesario aplicar una altura especifica para que quede una columna de cursos a lado del otro */
+    height: 260px;
+}
