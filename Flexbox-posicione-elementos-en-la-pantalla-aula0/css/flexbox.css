@@ -46,3 +46,15 @@
     /* Es necesario aplicar una altura especifica para que quede una columna de cursos a lado del otro */
     height: 260px;
 }
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    
+    /* Esto hace que no se desborde o descontrole del tamaño */
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
