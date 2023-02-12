@@ -49,7 +49,7 @@
 
 .contenidoPrincipal-cursos {
     display: flex;
-    
+
     /* Esto hace que no se desborde o descontrole del tamaño */
     flex-wrap: wrap;
 }
@@ -57,4 +57,74 @@
 .contenidoPrincipal-cursos-link {
     display: flex;
     width: 23%;
+}
+
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.videoSobre-video {
+    /* El video se agranda */
+    flex-grow: 2;
+    /* El video se reduce a medida que se achica la pantalla */
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 2;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px) {
+
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+    
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+    }
+    
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+    
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+    
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+    }
+    
+    .rodapePrincipal-patrocinadores-list {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
+
+    .headerPrincipal-nav-link-app {
+        order: -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
 }
