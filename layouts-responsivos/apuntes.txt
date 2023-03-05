@@ -1,4 +1,10 @@
 Graficos vectoriales:
-
 https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web 
 
+
+PageSpeed Insights (analiza el contenido de una página web y te sugiere qué hacer para mejorar la velocidad de esa una página)
+https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect 
+
+
+Conceptos:
+- Usar medidas relativas (ejemplo en imagenes. "max-width")
