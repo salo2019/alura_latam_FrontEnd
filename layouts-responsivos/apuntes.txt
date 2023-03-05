@@ -8,3 +8,7 @@ https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect
 
 Conceptos:
 - Usar medidas relativas (ejemplo en imagenes. "max-width")
+
+- Utilizar las unidades de viewport;
+    * Identificar la diferencia entre las unidades absolutas y relativas;
+    * Analizar las limitaciones físicas de los dispositivos.
