@@ -18,6 +18,11 @@
     margin-bottom: 1rem;
 }
 
+.sobre_nosotros__imagen {
+    /* Hago de que este la imagen */
+    display: none;
+}
+
 .sobre_nosotros__plataformas {
     display: flex;
     flex-wrap: wrap;
@@ -28,4 +33,27 @@
 .sobre-nosotros {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
+}
+
+/* Version de escritorio */
+@media screen and (min-width: 1024px) {
+    .sobre_nosotros {
+        display: flex;
+    }
+    .sobre_nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .sobre_nosotros__titulo {
+        text-align: left;
+    }
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+
+    /* aparece la imagen cuando la resolucion es mayor a 1024 */
+    .sobre_nosotros__imagen {
+        display: block;
+    }
 }

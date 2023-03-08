@@ -12,3 +12,7 @@ Conceptos:
 - Utilizar las unidades de viewport;
     * Identificar la diferencia entre las unidades absolutas y relativas;
     * Analizar las limitaciones físicas de los dispositivos.
+
+
+Las medias Querys:
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ 
