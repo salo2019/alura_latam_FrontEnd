@@ -1,0 +1,21 @@
+Documentacion de javasript
+https://developer.mozilla.org/es/docs/Learn/JavaScript
+
+--------------------------
+Conceptos basicos:
+
+let nombreCompleto = `el nombre del pasajero es ${variableNombre} ${variableApellido}`
+
+
+debugear:
+    1 -Tildar alguna linea hasta que se ponga en rojo
+    2 -Ir a la opcion de visual donde tiene una forma de un Play
+    3 -Apretar debugear y despues revisar las opciones.
+
+Ciclos o lazos en javasript
+https://ljcl79.medium.com/entendiendo-los-lazos-o-ciclos-en-javascript-25f3a9dd279d 
+
+Link de interes sobre las variables en javascript
+https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript
+
+
