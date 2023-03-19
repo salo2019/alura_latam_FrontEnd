@@ -1,2 +1,28 @@
-Manipulando DOM
+Manipulando DOM (OBJETO en forma de arbol)
+
+document -> es el objeto principal
+
+ejemplos document ---------------------------------------------------------------
+
+document.querySelector("li");                                                   //por etiqueta html
+
+document.querySelector(".clase");                                               //por clase
+
+document.querySelector("etiqueta").textContent;                                 //devuelve el contenido de la etiqueta
+
+document.querySelector("etiqueta").textContent = "cambiando el contenido";      //cambio el contenido de la etiqueta
+
+
+document.getElementById(‘id’)                                                   //selecciona el elemento por el id
+
+document.getElementsByClassName(‘clase’)                                        // retorna un arreglo de los elementos por el nombre de la clase
+
+document.getElementsByTagName(‘tag’)                                            // retorna un arreglo de los elementos por el nombre del tag
+
+document.querySelectorAll(“selector”)                                           // regresa todos los elementos con el mismo nombre
+
+Instrucciones importantes:
+
+    //esto hace que no recarge la pagina
+    evento.preventDefault();
 
